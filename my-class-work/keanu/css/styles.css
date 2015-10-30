@@ -1,0 +1,17 @@
+body {
+	background: black;
+	color: white;
+}
+
+p {
+	color:red;
+}
+
+li {
+	color: green;
+}
+h1 {
+	color:blue;
+	text-decoration: bold;
+
+}
