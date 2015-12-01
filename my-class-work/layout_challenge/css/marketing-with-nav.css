@@ -1,0 +1,63 @@
+.container{
+
+	margin:0 auto;
+	width:1200px;
+}
+
+header{
+
+	background-color: red;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.logo{
+
+	height:80px;
+	width:200px;
+	background-color: yellow;
+	float:left;
+}
+
+nav{
+    margin-top: 25px;
+    background-color: yellow;
+    float:right;
+    width: 500px;
+}
+
+nav a{
+	
+	display:inline-block;
+	height: 40px;
+	width: 100px;
+	background-color: pink;
+}
+
+main{
+	margin-top: 20px;
+	height:250px;
+	background-color: blue;
+	margin-bottom: 20px;
+
+}
+
+article{
+	background-color: green;
+	height: 100px;
+	width:400px;
+	float: left;
+	margin-bottom: 20px;
+
+}
+
+footer{
+    background-color: orange;
+	height:100px;
+	clear:both;
+	
+}
+
+.clear{
+	clear: both;
+}

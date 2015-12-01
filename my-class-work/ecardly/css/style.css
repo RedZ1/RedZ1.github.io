@@ -1,0 +1,25 @@
+body {
+	background: url("../images/background.jpg");
+}
+.container {
+	margin: 0 auto;
+	width: 960px;
+	
+}
+
+
+.logo {
+	text-align: center;
+}
+
+
+.header{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left:10px;
+	padding-right: 10px;
+    background: white;
+
+
+
+}

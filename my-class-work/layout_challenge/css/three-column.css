@@ -1,0 +1,62 @@
+.container{
+
+width: 1200px;
+margin:0 auto;
+}
+
+header{
+	
+	height: 100px;
+}
+.logo{
+	background-color: green;
+	width:200px;
+	height:80px;
+	float: left;
+}
+
+nav{
+	
+	width:500px;
+	float: right;
+
+
+}
+
+nav a{
+	margin-top: 25px;
+	display: inline-block;
+	height:20px;
+	width:100px;
+	background: orange;
+}
+
+main{
+
+	background-color: blue;
+	height:200px;
+
+
+
+}
+
+article{
+	background-color: pink;
+	height:100px;
+	width:400px;
+	float: left;
+	
+
+
+}
+
+footer{
+	background-color: brown;
+	height: 100px;
+	
+}
+
+	
+.clear{
+	clear:both;
+}

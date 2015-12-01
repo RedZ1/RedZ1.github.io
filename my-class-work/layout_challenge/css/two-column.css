@@ -1,0 +1,40 @@
+.container{
+	width:1000px;
+	margin:0;
+}
+
+
+header{
+	background: red;
+	height: 100px
+}
+
+
+
+main{
+	background: yellow;
+	height: 250px;
+	float:left;
+    width: 700px;
+
+}
+
+aside{
+
+	background: blue;
+	height: 250px;
+	float:right;
+	width:300px;
+	
+}
+.box{
+	overflow: hidden;
+}
+
+footer{
+	background: green;
+	height: 100px;
+}
+.clear{
+	clear: both;
+}
