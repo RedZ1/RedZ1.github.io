@@ -102,3 +102,30 @@ p {
 	line-height: 0;
 	height: 0;
 }
+
+@media(max-width: 480px){
+	#conatiner{
+		width: 100px;
+	}
+	header{
+		width: 50px;
+	}
+	.nav a{
+		width: 10px;
+	}
+
+
+.articles{
+	
+	float: none;
+
+}
+
+#side-column{
+	width:10px;
+	
+	
+}
+
+
+}
