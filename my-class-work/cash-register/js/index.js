@@ -11,25 +11,32 @@
  // 5: Append a new <tr></tr> to the <tbody id="entries"> containing two <td>'s, one of which contains the new variable: <tr><td></td><td>NEW VALUE</td></tr>
  // 6: Figure out a way to update the number in #total (Hint: look back at the calculator box example)
  // 7: Empty the input in #newEntry (clear it out)
+$(document).ready(function () {
 
-$(document).ready(function(){
+	var total = 0
 
-	$('#entry').submit(function(event){
-		var total = 0
+	$('#entry').submit(function (event) {
 
 		event.preventDefault()
-		var entry = $('#newEntry').val()
 
-		entry = parseFloat(entry)
+		var newEntry = $('#newEntry').val()
 
-		total = total + entry
+		newEntry = parseFloat(newEntry)
 
-		$('#total').text(total)
+		total += newEntry
 
+		newEntry = "$" + newEntry.toFixed(2)
 
+		$('#entries').append('<tr><td></td><td>' + newEntry + '</td></tr>')
 
+		totalStr = "$" + total.toFixed(2)
+
+		$('#total').text(totalStr)
+
+		$('#newEntry').val('')
+
+document.getElementById("reset").onclick = function() {
+  document.getElementById("number").value = "";
+};
 	})
-
 })
-
- 
