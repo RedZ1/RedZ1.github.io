@@ -174,7 +174,7 @@ li a.active{
 .about h4{
 	font-size: 24px;
 	color: #737373;
-	margin-bottom: 45px;
+	/*margin-bottom: 45px;*/
 }
 
 
@@ -227,10 +227,13 @@ li a.active{
 	margin-top: 0;
 	margin-bottom: 45px;
 
-
-
-
 }
+
+#Pa {
+	font-size: 29px;
+	
+}
+
 
 
 /*contact section*/
