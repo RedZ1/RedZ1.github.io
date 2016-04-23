@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'BenchNine', sans-serif;
+
 }
 li{
 	list-style: none;
@@ -71,13 +72,13 @@ ul.nav{
 	font-weight: bold;
 }
 .navbar-default .navbar-nav>li>a:hover{
-	color: #999;
+	color: #F03332;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #000;
 }
 li a.active{
-	color: #42b3e5 !important;
+	color: #ED0100!important;
 }
 .navbar-default .navbar-toggle {
   border-color: #fff;
@@ -167,13 +168,16 @@ li a.active{
 
 /*about area*/
 .about h2{
-	font-size: 90px;
-	color: #42b3e5;
+	font-size: 70px;
+	color: #F03332;
 	margin-top: 50px;
+	
 }
 .about h4{
 	font-size: 24px;
 	color: #737373;
+	text-align: center;
+
 	/*margin-bottom: 45px;*/
 }
 
@@ -189,8 +193,8 @@ li a.active{
 	/*color: #fff;*/
 	margin-top: 50px;
 	margin-bottom: 0;
-	font-size: 90px;
-	color: #42b3e5;
+	font-size: 70px;
+	color: #F03332;
 	/*margin-top: 50px;*/
 }
 .services h4{
@@ -201,11 +205,34 @@ li a.active{
 	display: block;
 	font-size: 24px;
 	color: #737373;
+	margin-bottom: 60px;
 }
+
+h5{
+	font-size: 24px;
+}
+
+p{
+
+	font-size: 20px;
+}
+
+
 .single-service{
 	text-align:center;
 }
 
+
+
+.widget a{
+		text-align: center;
+		padding-top: 20px;
+        margin-bottom: 60px;
+        color: #F03332;
+        font-size: 18px;
+
+        
+}
 
 
 
@@ -214,12 +241,14 @@ li a.active{
 /*team section*/
 .partners{
 	padding-bottom: 60px;
+	margin-bottom: -300px;
+
 }
 .partners h2{
-	font-size: 90px;
-	color: #42b3e5;
+	font-size: 70px;
+	color: #F03332;
 	margin-top: 50px;
-	margin-bottom: 0;
+	
 }
 .partners h4{
 	font-size: 24px;
@@ -229,9 +258,32 @@ li a.active{
 
 }
 
-#Pa {
-	font-size: 29px;
-	
+
+
+
+
+.business-header {
+    height: 400px;
+    background: url('http://placehold.it') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: green;
+    text-align: center;
+    font-size: 90px;
+
+}
+
+.img-center {
+    margin: 0 auto;
 }
 
 
@@ -241,8 +293,8 @@ li a.active{
 	background: #3a9dca;
 }
 .contact-heading h2{
-	color: #fff;
-	font-size: 90px;
+	color: #F03332;
+	font-size: 70px;
 }
 .contact-info{
 	padding-left: 40px;
@@ -266,6 +318,7 @@ li a.active{
 	border-bottom: 1px solid #13849c;
 	padding-bottom: 12px;
 	margin-bottom: 0;
+
 }
 .contact-info ul{
 	margin: 0;
@@ -662,3 +715,13 @@ responsive area
   		font-size: 10px;
   	}
 }
+
+
+
+
+
+
+
+
+
+
